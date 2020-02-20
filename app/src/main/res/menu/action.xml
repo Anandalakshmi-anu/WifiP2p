@@ -3,12 +3,12 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
         android:id="@+id/menuDirectEnable"
-        android:title="Wifi 开关"
+        android:title="Wifi switch"
         app:showAsAction="ifRoom" />
 
     <item
         android:id="@+id/menuDirectDiscover"
-        android:title="搜索"
+        android:title="search for devices"
         app:showAsAction="ifRoom" />
 
 </menu>

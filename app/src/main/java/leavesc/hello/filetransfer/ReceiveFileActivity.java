@@ -154,14 +154,14 @@ public class ReceiveFileActivity extends BaseActivity {
     }
 
     private void initView() {
-        setTitle("接收文件");
+        setTitle("Receive files");
         iv_image = findViewById(R.id.iv_image);
         tv_log = findViewById(R.id.tv_log);
         progressDialog = new ProgressDialog(this);
         progressDialog.setProgressStyle(ProgressDialog.STYLE_HORIZONTAL);
         progressDialog.setCancelable(false);
         progressDialog.setCanceledOnTouchOutside(false);
-        progressDialog.setTitle("正在接收文件");
+        progressDialog.setTitle("Receiving file");
         progressDialog.setMax(100);
     }
 
